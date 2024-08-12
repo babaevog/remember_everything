@@ -5,8 +5,8 @@ class Program
     static void Main(string[] args)
     {
         List<Product> products = new List<Product>();
-        new FoodProduct("Яблоки", 40, ProductCategory.Fruits);
-        new FoodProduct("Молоко", 75.50, ProductCategory.Dairy);
+        new FruitsProduct("Яблоки", 40, ProductCategory.Fruits);
+        new FruitsProduct("Молоко", 75.50, ProductCategory.Dairy);
         new ElectronicProduct("Смартфон", 14999.99, ProductCategory.Electronics);
         new ElectronicProduct("Наушники", 5999.99, ProductCategory.Electronics);
         new ClothingProduct("Футболка", 1200, ProductCategory.Clothing);
@@ -24,7 +24,7 @@ class Program
         }
         // используем linq для поиска товаров по категории
         Console.WriteLine("\nТовары категории \"Электроника\":");
-        var electronicProducts = products.Where(p => p.Category == ProductCategory.Electronics);
+        var ElectronicProducts = products.Where(p => p.Category == ProductCategory.Electronics);
         foreach (Product product in electronicProducts)
         {
             Console.WriteLine($"{product.Name} - {product.Price}");
@@ -58,18 +58,36 @@ public class Product
 
 
 }
-public class FoodProduct
+public class FruitsProduct
 {
-    public FoodProduct(string name, double price, ProductCategory category);
+    public FruitsProduct(string name, double price, ProductCategory category)
+    {
+        public string Name { get; set; }
+        public double Price { get; set; }
+        public ProductCategory Category { get; set; } 
+    }
 }
+
+
+
 public class ElectronicProduct
 {
-    public ElectronicProduct(string name, double price, ProductCategory category);
+    public ElectronicProduct(string name, double price, ProductCategory category)
+    {
+        public string Name { get; set;}
+        public double Price { get; set;}
+        public ProductCategory Category { get; set;}
+
+    }
 }
 public class ClothingProduct : Product
 {
-    public ClothingProduct(string name, double price, ProductCategory category)
-    : base(name, price);
+    string size; 
+    public ClothingProduct(string name, double price, ProductCategory category, string size)
+    : base(name, price,category)
+    {
+        public string Size {get; set;}
+    }
 
 }
 public enum ProductCategory
@@ -78,5 +96,4 @@ public enum ProductCategory
     Dairy,
     Electronics,
     Clothing
-
 }
