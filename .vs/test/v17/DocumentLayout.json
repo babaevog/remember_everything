@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\test\\",
+  "WorkspaceRootPath": "D:\\js\\c#\\origin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E25E33D0-3B86-4F90-952C-EB4CD103E77A}|test\\test.csproj|c:\\users\\user\\source\\repos\\test\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E25E33D0-3B86-4F90-952C-EB4CD103E77A}|test\\test.csproj|d:\\js\\c#\\origin\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E25E33D0-3B86-4F90-952C-EB4CD103E77A}|test\\test.csproj|solutionrelative:test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\test\\test\\Program.cs",
+              "DocumentMoniker": "D:\\js\\c#\\origin\\test\\Program.cs",
               "RelativeDocumentMoniker": "test\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\test\\test\\Program.cs",
+              "ToolTip": "D:\\js\\c#\\origin\\test\\Program.cs",
               "RelativeToolTip": "test\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T17:09:29.455Z",
               "EditorCaption": ""

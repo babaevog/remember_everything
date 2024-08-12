@@ -1,0 +1,5 @@
+D:\js\c#\origin\test\obj\Debug\net8.0\test.GeneratedMSBuildEditorConfig.editorconfig
+D:\js\c#\origin\test\obj\Debug\net8.0\test.AssemblyInfoInputs.cache
+D:\js\c#\origin\test\obj\Debug\net8.0\test.AssemblyInfo.cs
+D:\js\c#\origin\test\obj\Debug\net8.0\test.csproj.CoreCompileInputs.cache
+D:\js\c#\origin\test\obj\Debug\net8.0\test.sourcelink.json
